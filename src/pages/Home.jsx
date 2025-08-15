@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Slider container */}
-      <div className="w-full h-[50vh]">
+      <div className="w-full h-[50vh] lg:h-[60vh]">
         <MainSlider />
       </div>
 

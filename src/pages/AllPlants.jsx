@@ -2,7 +2,7 @@ import React from 'react'
 
 const AllPlants = () => {
   return (
-    <div className="max-w-7xl mx-auto h-screen p-6 bg-gray-500">
+    <div className="max-w-7xl mx-auto h-screen p-6 ">
       <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 mb-8">
         <h1 className="text-3xl font-bold text-gray-800">🌿 All Plants</h1>
         <div className="relative w-full sm:w-auto">
@@ -72,6 +72,7 @@ const AllPlants = () => {
             {/* Repeat for other plants */}
           </tbody>
         </table>
+
       </div>
     </div>
   )
